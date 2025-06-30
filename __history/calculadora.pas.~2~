@@ -1,0 +1,18 @@
+unit calculadora;
+
+interface
+type
+  TCalculadora = class
+    function Add(value1, value2 : integer) : integer;
+  end;
+
+implementation
+
+{ TCalculadora }
+
+function TCalculadora.Add(value1, value2: integer): integer;
+begin
+  Result := value1 + value2;
+end;
+
+end.

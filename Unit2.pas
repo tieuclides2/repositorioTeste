@@ -44,7 +44,7 @@ var
 begin
   Resultado := FCalc.Add(2,2);
 
-  Assert.IsTrue(Resultado = 4, 'add est√° com erro');
+  Assert.IsTrue(Resultado = 4, 'add est· com erro');
 end;
 
 procedure TMyTestObject.Test2(const A : Integer;const B : Integer; const R : Integer);
